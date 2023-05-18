@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="413dp"
+        android:layout_height="404dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/cliente1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite el ID del Cliente"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/vehiculo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digite el ID del Vehiculo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/enombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digitar Nombres"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eapellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digitar Apellidos"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digitar Direccion"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/eciudad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digitar Ciudad"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digitar Marca"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emodelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digitar Modelo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ematricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digitar Matricula"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/ekilometrajes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Digitar Kilometraje"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/editar"
+        android:layout_width="163dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:text="EDITAR"
+        app:layout_constraintEnd_toStartOf="@+id/eliminar"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="163dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:text="Eliminar"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="227dp" />
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="buscar por id cliente"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="96dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
